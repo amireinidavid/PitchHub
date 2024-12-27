@@ -5,7 +5,7 @@ import { Download } from "lucide-react";
 import { FaFacebook, FaInstagram, FaLinkedin } from "react-icons/fa";
 import { FaSquareXTwitter } from "react-icons/fa6";
 import { motion } from "framer-motion";
-import "../../Css/hero.css";
+import "@/Css/hero.css";
 
 const Hero = () => {
   return (
