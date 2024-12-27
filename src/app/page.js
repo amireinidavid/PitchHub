@@ -16,7 +16,9 @@ async function Home() {
 
   return (
     <div className="w-full h-full min-h-screen">
-      <Hero />
+      <div className="m-0 p-0 overflow-x-hidden">
+        <Hero />
+      </div>
       <AboutSection />
       <div className="mt-10">
         <FeaturesSection />
